@@ -7,31 +7,31 @@ class FinanceCategoryHandler(CategoryHandler):
     
     def get_labels(self) -> Dict[str, str]:
         return {
-            "Ad sales": "Nội dung quảng bá bán hàng, lời kêu gọi mua sản phẩm/dịch vụ.",
-            "Brand mention": "Nội dung chỉ đơn thuần đề cập đến thương hiệu, không có cảm xúc rõ ràng hay ý định cụ thể.",
-            "Counters/ Telesales": "Nội dung phản ánh về nhân viên tại quầy, telesales: gọi điện mời chào, tư vấn sản phẩm.",
-            "Debt Issues": "Nội dung nói về việc nợ, trả nợ, chậm trả, khó khăn tài chính liên quan đến khoản vay.",
-            "Fee/ Charge": "Phàn nàn, câu hỏi, hoặc thông tin liên quan đến phí dịch vụ, các khoản thu thêm.",
-            "Harassment for Collection": "Phản ánh việc bị làm phiền do thu hồi nợ: gọi điện, nhắn tin, đe dọa.",
-            "Harassment for Non Client": "Phản ánh bị làm phiền dù không phải khách hàng (gọi nhầm, spam).",
-            "Harassment for Selling": "Phản ánh bị làm phiền vì mục đích bán hàng (quảng cáo, tiếp thị qua điện thoại).",
-            "Harassment on Client's Relative": "Phản ánh việc làm phiền người thân của khách hàng về nợ, bán hàng, liên hệ gián tiếp.",
-            "Interest": "Nội dung nói về lãi suất: cao, thấp, thay đổi, câu hỏi về mức lãi.",
-            "Mobile app": "Đánh giá, phản ánh, hướng dẫn hoặc lỗi liên quan đến ứng dụng di động.",
-            "Process/ Procedure": "Nội dung đề cập đến quy trình, thủ tục: mở tài khoản, vay vốn, thanh lý, v.v.",
-            "Product information": "Câu hỏi, chia sẻ, mô tả về sản phẩm/dịch vụ đang được cung cấp.",
-            "Recruitment/ Training": "Nội dung về tuyển dụng, đào tạo nhân viên, phỏng vấn, chia sẻ kinh nghiệm làm việc.",
-            "Sellers/ Consultant": "Nội dung liên quan đến người bán hàng, tư vấn viên: thái độ, kiến thức, chăm sóc khách hàng.",
-            "Terminate procedure": "Phản ánh hoặc hỏi về thủ tục chấm dứt dịch vụ, kết thúc hợp đồng, tất toán, đóng tài khoản.",
-            "General mention": "Đề cập tổng quan về thương hiệu, không rõ vấn đề cụ thể.",
-            "Staff attitude": "Nội dung nhận xét thái độ nhân viên: thân thiện, thô lỗ, hỗ trợ tốt/kém.",
-            "Minigame/ livestream": "Nội dung liên quan đến mini game, livestream trên mạng xã hội hoặc kênh truyền thông.",
-            "ESG": "Nội dung liên quan đến môi trường, xã hội, quản trị doanh nghiệp – ví dụ như hoạt động CSR.",
-            "Promotion/ campaign": "Chia sẻ, thắc mắc hoặc phản ánh về chương trình khuyến mãi, ưu đãi, giảm giá.",
-            "Achievement": "Nội dung ca ngợi, nêu thành tích thương hiệu (giải thưởng, xếp hạng, mốc tăng trưởng).",
-            "Business result": "Thông tin, phân tích, báo cáo kết quả kinh doanh, doanh thu, lợi nhuận.",
-            "Interactive posts": "Nội dung tương tác với người dùng: câu hỏi, bình chọn, trò chơi, lời kêu gọi tham gia hoạt động."
-        }
+        "Ad sales": "Nội dung là để kêu gọi mọi người hãy vay tiền từ tổ chức tài chính. Mua hàng và thanh toán/ trả góp qua các công ty tài chính.",
+        "Brand mention": "Nội dung chỉ đơn thuần đề cập đến thương hiệu, không có cảm xúc rõ ràng hay ý định cụ thể.",
+        "Counters/ Telesales": "Nói về các telesales chuyên spam các cuộc gọi hoặc nhân viên tư vấn tại quầy.",
+        "Debt Issues": "Nói về việc bùng các khoản nợ.",
+        "Fee/ Charge": "Nói về các loại phí và các chi phí phát sinh, chi phí thay đổi trong quá trình vay.",
+        "Harassment for Collection": "Nói về việc thu hồi các khoản nợ, quấy rầy để bắt khách trả nợ",
+        "Harassment for Non Client": "Nói về việc bị làm phiền dù không phải khách hàng.",
+        "Harassment for Selling": "Nói về việc bị làm phiền dù bản thân không phải là người vay.",
+        "Harassment on Client's Relative": "Phản ánh việc làm phiền người thân của khách hàng về nợ, bán hàng, liên hệ gián tiếp.",
+        "Interest": "Nội dung nói về lãi suất: cao, thấp, thay đổi, câu hỏi về mức lãi.",
+        "Mobile app": "Đánh giá, phản ánh, hướng dẫn hoặc lỗi liên quan đến ứng dụng di động.",
+        "Process/ Procedure": "Nói về các thủ tục vay vốn.",
+        "Product information": "Câu hỏi, chia sẻ, mô tả về sản phẩm/dịch vụ đang được cung cấp.",
+        "Recruitment/ Training": "Nội dung liên quan đến hoạt động tuyển dụng của công ty tài chính",
+        "Sellers/ Consultant": "Nội dung liên quan đến người tư vấn bán hàng, tư vấn viên tại quầy hoặc qua điện thoại.",
+        "Terminate procedure": "Nói về các thủ tục tất toán hợp đồng",
+        "General mention": "Đề cập tổng quan về thương hiệu, không rõ vấn đề cụ thể.",
+        "Staff attitude": "Nội dung nhận xét thái độ nhân viên: thân thiện, thô lỗ, hỗ trợ tốt/kém.",
+        "Minigame/ livestream": "Nội dung liên quan đến mini game, livestream.",
+        "ESG": "Nội dung liên quan đến môi trường, xã hội, quản trị doanh nghiệp – ví dụ như hoạt động CSR, tài trợ.",
+        "Promotion/ campaign": "Nói về các hoạt động khuyến mãi giảm giá (không phải rao vặt) hoặc chiến dịch của brand có thể là nội bộ hoặc nhằm mục đích tăng nhận diện thương hiệu.",
+        "Achievement": "Nói về thành tích thương hiệu (giải thưởng, xếp hạng, mốc tăng trưởng).",
+        "Business result": "Thông tin, phân tích, báo cáo kết quả kinh doanh, doanh thu, lợi nhuận.",
+        "Interactive posts": "Nội dung, bình luận chỉ mang tính tương tác, không mang bất cứ ý nghĩa gì, ví dụ như tag tên."
+    }
     
     def get_label_ids(self) -> Dict[str, str]:
         return {
